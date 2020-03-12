@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CS Alert Dialog</string>
+    <string name="exit">Exit</string>
+    <string name="membuat_dialog">Membuat Dialog</string>
+</resources>
