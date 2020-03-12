@@ -29,10 +29,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // FUNCTION BUTTON YANG ADA DI SMARTPHONE
-    // Catt:
-    // - Jika tidak ingin menggunakan function ini silahkan dinonactivkan atau sebaliknya
-    // - Untuk membuat function ini harus luar dari onCreate
-    // - Menggunakan @Override
+    /** Catt:
+     * Jika tidak ingin menggunakan fucntion ini silahkan dinonaktifkan atau sebaliknya
+     * Untuk membuat function ini harus diluar dari onCreate
+     * Menggunakan @Override
+     */
+
     @Override
     public void onBackPressed() {
         exit(); // Memanggil Class Function Exit
@@ -49,8 +51,10 @@ public class MainActivity extends AppCompatActivity {
         alertDialaogBuilder.setCancelable(false);
 
         // Membuat Function YES, NO, CANCEL
-        // Catt: Jika tidak ingin menggunakan function CANCEL silahkan dinokatifkan atau sebaliknya
-        //---
+        /** Catt:
+         * Jika tidak ingin menggunakan function CANCEL silahkan dinonaktifkan atau sebaliknya
+         */
+
         // Membuat Function YES (setPositiveButton)
         alertDialaogBuilder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
             @Override
